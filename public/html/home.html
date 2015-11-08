@@ -1,0 +1,69 @@
+<div layout="row">
+    <div flex class="mainIntro" layout-align="center center">
+        <div layout="row">
+            <div flex class="mainBoxes" ng-class="{testClass: hovering1}"
+    ng-mouseenter="hovering1 = true"
+    ng-mouseleave="hovering1 = false">
+                <div class="boxesPlacement">
+                    <h1>Mystery</h1>
+                    <div class="borderBottom"></div>
+                    <div class="personalText">
+                        Examples of completed and ongoing projects.
+                    </div>
+                    <div class="fullSize">
+                        <div class="mysteryAnimate" ng-show="hovering1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div flex class="mainBoxes" ng-class="{testClass: hovering}"
+    ng-mouseenter="hovering = true"
+    ng-mouseleave="hovering = false">
+                <div class="boxesPlacement">
+                    <h1>Work</h1>
+                    <div class="borderBottom"></div>
+                    <div class="personalText">
+                        Examples of completed and ongoing projects.
+                    </div>
+                    <div class="fullSize">
+                        <div class="workAnimate" ng-show="hovering">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div flex class="mainBoxes" ng-class="{testClass: hovering2}"
+    ng-mouseenter="hovering2 = true"
+    ng-mouseleave="hovering2 = false">
+                <div class="boxesPlacement">
+                    <h1>Personal</h1>
+                    <div class="borderBottom"></div>
+                    <div class="personalText">
+                        Learn who I am, where I come from, and what I have to offer You.
+                    </div>
+                    <div class="fullSize">
+                        <div class="personalAnimate" ng-show="hovering2">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div flex class="mainBoxes" ng-class="{testClass: hovering3}"
+    ng-mouseenter="hovering3 = true"
+    ng-mouseleave="hovering3 = false">
+                <div class="boxesPlacement">
+                    <h1>Contact</h1>
+                    <div class="borderBottom"></div>
+                    <div class="personalText">
+                        Add me on LinkedIn, GitHub, Facebook. Hire Me.
+                    </div>
+                    <div class="fullSize">
+                        <div class="contactAnimate" ng-show="hovering3">
+
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

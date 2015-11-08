@@ -1,0 +1,101 @@
+<html lang="en" ng-app="StarterApp">
+
+<head>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.2/angular-material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
+    <link rel="stylesheet" href="../stylescripts/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://use.typekit.net/xfs3jge.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <meta name="viewport" content="initial-scale=1" />
+</head>
+
+<body layout="column" ng-controller="AppCtrl">
+    <md-toolbar layout="row" style="position: fixed; opacity: .7">
+
+        <div class="md-toolbar-tools">
+            <md-button class="md-icon-button" aria-label="Settings">
+                <!--          <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>-->
+                <i class="material-icons" ng-click="toggleLeft()">menu</i>
+            </md-button>
+            <h2>
+        <h1>Dev Camp Grads</h1>
+        <span flex></span>
+        <md-button>
+            Bootcampers
+        </md-button>
+        <md-button>
+            Employers
+        </md-button>
+        <md-button>
+            About
+        </md-button>
+        <md-button>
+            Contact
+        </md-button>
+        <md-button>
+            Sign In
+        </md-button>
+        </div>
+    </md-toolbar>
+
+        <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-open="openLeft">
+             <md-toolbar class="topNav md-primary">
+                    <h1 class="md-toolbar-tools">Find what you need</h1>
+             </md-toolbar>
+             <md-list>
+              <md-item ng-repeat="item in menu">
+                <a>
+                  <md-content md-ink-ripple layout="row" layout-align="start center">
+                    <div class="inset">
+                      <ng-md-icon icon="{{item.icon}}"></ng-md-icon>
+                    </div>
+                    <div class="inset">{{item.title}}
+                    </div>
+                  </md-content>
+                </a>
+              </md-item>
+              <md-divider></md-divider>
+              <md-subheader>Bootcamp Students and Alumni</md-subheader>
+              <md-item ng-repeat="item in admin">
+                <a>
+                  <md-content md-ink-ripple layout="row" layout-align="start center">
+                    <div class="inset">
+                      <ng-md-icon icon="{{item.icon}}"></ng-md-icon>
+                    </div>
+                    <div class="inset">{{item.title}}
+                    </div>
+                  </md-content>
+                </a>
+              </md-item>
+              <md-divider></md-divider>
+              <md-subheader>Employers</md-subheader>
+              <md-item ng-repeat="item in employers">
+                <a>
+                  <md-content md-ink-ripple layout="row" layout-align="start center">
+                    <div class="inset">
+                      <ng-md-icon icon="{{item.icon}}"></ng-md-icon>
+                    </div>
+                    <div class="inset">{{item.title}}
+                    </div>
+                  </md-content>
+                </a>
+            </md-list>
+        </md-sidenav>
+
+    <div ng-view>
+
+    </div>
+   
+   
+    <!-- Angular Material Dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.2/angular-material.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.6.0/angular-material-icons.min.js"></script>
+    <script src="../javascripts/main.js"></script>
+  </body>
+</html>

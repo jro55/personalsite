@@ -1,0 +1,148 @@
+.md-toolbar-tools h1 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
+
+.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
+  color: white; 
+}
+
+.mainIntro {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.mainBoxes {
+    height: 100vh;
+    background-color: #00011D;
+    color: white;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.boxesPlacement {
+    text-align: center;
+    position: relative;
+    top: 35%;
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
+}
+
+.boxesPlacement h1 {
+    text-align: center;
+}
+
+.testClass {
+    background-color: rgba(0, 0, 0, .4);
+    transition: all 0.5s ease-in-out;
+}
+
+.fullSize {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.borderBottom {
+    width: 180px;
+    border-bottom: 2px solid rgba(48, 49, 77, 1);
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.personalText {
+    width: 300px;
+    margin: auto;
+    font-size: 120%;
+}
+
+.mysteryAnimate {
+    background-image: url(../images/miley.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 182%;
+    top: 57%;
+    position: relative;
+    box-shadow: 0px -5px 3px black;
+}
+
+.mysteryAnimate.ng-hide-add,
+.mysteryAnimate.ng-hide-remove,
+.mysteryAnimate.ng-show-add,
+.mysteryAnimate.ng-show-remove {
+    transition: all .75s ease;
+}
+
+.mysteryAnimate.ng-hide {
+    top: 600px;
+}
+
+.workAnimate {
+    background-image: url(../images/computer.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 182%;
+    top: 57%;
+    position: relative;
+    box-shadow: 0px -5px 3px black;
+}
+
+.workAnimate.ng-hide-add,
+.workAnimate.ng-hide-remove,
+.workAnimate.ng-show-add,
+.workAnimate.ng-show-remove {
+    transition: all .75s ease;
+}
+
+.workAnimate.ng-hide {
+    top: 600px;
+}
+
+.personalAnimate {
+    background-image: url(../images/takeMeToTheMountains.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 182%;
+    top: 57%;
+    position: relative;
+    box-shadow: 0px -5px 3px black;
+}
+
+.personalAnimate.ng-hide-add,
+.personalAnimate.ng-hide-remove,
+.personalAnimate.ng-show-add,
+.personalAnimate.ng-show-remove {
+    transition: all .75s ease;
+}
+
+.personalAnimate.ng-hide {
+    top: 600px;
+}
+
+.contactAnimate {
+    background-image: url(../images/miley.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 182%;
+    top: 57%;
+    position: relative;
+    box-shadow: 0px -5px 3px black;
+}
+
+.contactAnimate.ng-hide-add,
+.contactAnimate.ng-hide-remove,
+.contactAnimate.ng-show-add,
+.contactAnimate.ng-show-remove {
+    transition: all .75s ease;
+}
+
+.contactAnimate.ng-hide {
+    top: 600px;
+}
