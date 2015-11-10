@@ -1,4 +1,4 @@
-<div layout="row">
+<!--<div layout="row">-->
     <div flex class="mainIntro" layout-align="center center">
         <div layout="row">
             <div flex class="mainBoxes" ng-class="{testClass: hovering1}"
@@ -8,10 +8,11 @@
                     <h1>Mystery</h1>
                     <div class="borderBottom"></div>
                     <div class="personalText">
-                        Examples of completed and ongoing projects.
+                        You should click this and see where it leads.
                     </div>
                     <div class="fullSize">
                         <div class="mysteryAnimate" ng-show="hovering1">
+                            <img style="width: 200px; height: 200px" src="../images/anonymous.png">
                         </div>
                     </div>
                 </div>
@@ -20,10 +21,10 @@
     ng-mouseenter="hovering = true"
     ng-mouseleave="hovering = false">
                 <div class="boxesPlacement">
-                    <h1>Work</h1>
+                    <h1><a href="/#work" class="noDecoration">Work</a></h1>
                     <div class="borderBottom"></div>
                     <div class="personalText">
-                        Examples of completed and ongoing projects.
+                        A portfolio of completed and ongoing projects.
                     </div>
                     <div class="fullSize">
                         <div class="workAnimate" ng-show="hovering">
@@ -36,34 +37,44 @@
     ng-mouseenter="hovering2 = true"
     ng-mouseleave="hovering2 = false">
                 <div class="boxesPlacement">
-                    <h1>Personal</h1>
+                    <h1><a href="/#personal" class="noDecoration">Personal</a></h1>
                     <div class="borderBottom"></div>
                     <div class="personalText">
                         Learn who I am, where I come from, and what I have to offer You.
                     </div>
                     <div class="fullSize">
                         <div class="personalAnimate" ng-show="hovering2">
-                            
+                            <img style="width: 100%; height: 450px" src="../images/mountains3.png">
                         </div>
                     </div>
                 </div>
             </div>
-            <div flex class="mainBoxes" ng-class="{testClass: hovering3}"
+            <div flex class="mainBoxes" ng-click="clickContacts()" ng-class="{testClass: hovering3}"
     ng-mouseenter="hovering3 = true"
     ng-mouseleave="hovering3 = false">
-                <div class="boxesPlacement">
+                <div class="boxesPlacement" ng-class="{boxesPlacement2: showContacts}">
                     <h1>Contact</h1>
-                    <div class="borderBottom"></div>
+                    <div class="borderBottomContact" ng-class="{borderBottomContact2: showContacts}"></div>
                     <div class="personalText">
                         Add me on LinkedIn, GitHub, Facebook. Hire Me.
                     </div>
                     <div class="fullSize">
-                        <div class="contactAnimate" ng-show="hovering3">
-
+                        <div class="contactAnimate" ng-show="hovering3" ng-class="{contactAnimate2: showContacts}">
+                            <a href="https://www.linkedin.com/in/joshua-roman-2444456"><img class="iconSize" ng-class="{iconSize2: showContacts}" src="../images/linkedin.png"></a>
+                            <a href="mailto:joshproman@yahoo.com"><img class="iconSize" ng-class="{iconSize2: showContacts}" src="../images/email.png"></a>
+                            <a href="https://www.facebook.com/joshproman"><img class="iconSize" ng-class="{iconSize2: showContacts}" src="../images/facebook.png"></a>
                         </div>
-                    </div>   
+                    </div>
                 </div>
+                <div class="contactInfo" ng-show="showContacts">
+                    <h3>Email</h3>
+                    <p>joshproman@yahoo.com</p>
+                    <h3>GitHub</h3>
+                    <p>https://github.com/jro55</p>
+                    <h3>Location</h3>
+                    <p>Boulder, CO</p>
+                </div>   
             </div>
         </div>
     </div>
-</div>
+<!--</div>-->

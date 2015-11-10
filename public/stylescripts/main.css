@@ -9,14 +9,14 @@
 }
 
 .mainIntro {
-    background-image: url(../images/background.png);
+    background-image: url(../images/mountainbackground.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .mainBoxes {
     height: 100vh;
-    background-color: #00011D;
+    background-color: rgba(0,1,29,.9);
     color: white;
     text-align: center;
     transition: all 0.5s ease-in-out;
@@ -28,10 +28,47 @@
     top: 35%;
     font-family: 'Poiret One', cursive;
     font-weight: 500;
+    transition: all 0.5s ease-in-out;
 }
 
 .boxesPlacement h1 {
     text-align: center;
+}
+
+.boxesPlacement2 {
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+}
+
+.boxesPlacement2.ng-hide-add,
+.boxesPlacement2.ng-hide-remove,
+.boxesPlacement2.ng-show-add,
+.boxesPlacement2.ng-show-remove,
+.boxesPlacement2.ng-class-add,
+.boxesPlacement2.ng-class-remove,{
+    transition: all .75s ease;
+}
+
+.boxesPlacement2.ng-class {
+    top: 600px;
+}
+
+.borderBottomContact {
+    width: 180px;
+    border-bottom: 2px solid rgba(48, 49, 77, 1);
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    transition: all 0.5s ease-in-out;
+}
+
+.borderBottomContact2 {
+    width: 180px;
+    border-bottom: 2px solid rgba(48, 49, 77, 1);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in-out;
 }
 
 .testClass {
@@ -43,6 +80,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    display: block;
 }
 
 .borderBottom {
@@ -57,17 +95,21 @@
     width: 300px;
     margin: auto;
     font-size: 120%;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
 }
 
 .mysteryAnimate {
+/*
     background-image: url(../images/miley.jpg);
     background-size: cover;
     background-position: center;
+*/
     width: 100%;
-    height: 182%;
+    height: 198%;
     top: 57%;
     position: relative;
-    box-shadow: 0px -5px 3px black;
+/*    box-shadow: 0px -5px 3px black;*/
 }
 
 .mysteryAnimate.ng-hide-add,
@@ -86,7 +128,7 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 182%;
+    height: 198%;
     top: 57%;
     position: relative;
     box-shadow: 0px -5px 3px black;
@@ -104,14 +146,16 @@
 }
 
 .personalAnimate {
+/*
     background-image: url(../images/takeMeToTheMountains.png);
     background-size: cover;
     background-position: center;
+*/
     width: 100%;
-    height: 182%;
-    top: 57%;
+    height: 198%;
+    top: 8%;
     position: relative;
-    box-shadow: 0px -5px 3px black;
+/*    box-shadow: 0px -5px 3px black;*/
 }
 
 .personalAnimate.ng-hide-add,
@@ -126,14 +170,22 @@
 }
 
 .contactAnimate {
+/*
     background-image: url(../images/miley.jpg);
     background-size: cover;
     background-position: center;
+*/
     width: 100%;
-    height: 182%;
+    height: 198%;
     top: 57%;
     position: relative;
-    box-shadow: 0px -5px 3px black;
+    transition: all 0.5s ease-in-out;
+/*    box-shadow: 0px -5px 3px black;*/
+}
+
+.contactAnimate2 {
+    top: 30%;
+    transition: all 0.5s ease-in-out;
 }
 
 .contactAnimate.ng-hide-add,
@@ -146,3 +198,140 @@
 .contactAnimate.ng-hide {
     top: 600px;
 }
+
+.titleText {
+    color: white;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 140%;
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+}
+
+.experience {
+    height: 120px;
+    position: relative;
+/*    border-top: 2px solid black;*/
+/*    border-bottom: 2px solid black;*/
+    margin: auto;
+    text-align: center;
+}
+
+.icons {
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    bottom: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.firstDiv {
+    background-color: white;
+    height: 450px;
+/*    margin-top: 260px;*/
+    padding-left: 100px;
+}
+
+.imageSizes {
+    width: 425px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+    display: inline-block;
+    box-shadow: 5px 5px 5px black;
+}
+
+.background {
+    background-color: #00011D;
+    position: relative;
+}
+
+.noDecoration {
+    text-decoration: none;
+    color: white;
+}
+
+.secondDiv {
+    background-color: whitesmoke;
+    height: 450px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.info {
+    color: black;
+    display: inline-block;
+    position: absolute;
+    margin-top: 120px;
+    padding-left: 150px;
+    padding-right: 200px;
+}
+
+.imageSizes2 {
+    width: 425px;
+    height: 250px;
+    margin-right: 50px;
+    margin-top: 100px;
+    float: right;
+    display: inline-block;
+    box-shadow: 5px 5px 5px black;
+}
+
+.info2 {
+    color: black;
+    display: inline-block;
+    position: absolute;
+    margin-top: 120px;
+    padding-left: 40px;
+    padding-right: 800px;
+}
+
+.thirdDiv {
+    background-color: #00011D;
+    height: 350px;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 240px;
+    font-family: sans-serif;
+}
+
+.thirdDiv span {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.iconSize {
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.iconSize2 {
+    width: 75px;
+    height: 75px;
+    transition: all 0.5s ease-in-out;
+}
+
+.contactInfo {
+    top: 200px;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    display: block;
+    font-family: 'Poiret One', cursive;
+}
+
+.contactInfo.ng-hide-add,
+.contactInfo.ng-hide-remove,
+.contactInfo.ng-show-add,
+.contactInfo.ng-show-remove {
+    transition: all 0.6s ease;
+}
+
+.contactInfo.ng-hide {
+    top: 800px;
+    transition: all 0.6s ease-in-out;
+}
+
