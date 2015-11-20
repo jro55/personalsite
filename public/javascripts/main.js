@@ -12,10 +12,10 @@ angular.module('StarterApp')
 				templateUrl : '/html/work.html',
 				controller : 'AppCtrl'
 			})
-//            .when('/upcomingshows', {
-//                templateUrl : '/html/upcomingShows.html',
-//                controller : 'mainController'
-//            })
+            .when('/personal', {
+                templateUrl : '/html/personal.html',
+                controller : 'AppCtrl'
+            })
 //            .when('/userpage', {
 //                templateUrl : '/html/userPage.html',
 //                controller : 'mainConetroller'
@@ -103,6 +103,43 @@ angular.module('StarterApp')
     
     $scope.clickContacts = function() {
         $scope.showContacts = !$scope.showContacts;
+    }
+    
+    $scope.toggleView = true;
+    
+    $scope.changeView = function() {
+        $scope.toggleView = true;
+    }
+    
+    $scope.viewEducation = false;
+        
+    $scope.educationClick = function() {
+        $scope.viewEducation = !$scope.viewEducation;
+    }
+    
+    $scope.firstOne = false;
+    $scope.clickFirstCircle = function() {
+        $scope.firstOne = !$scope.firstOne;
+    }
+    
+    $scope.secondOne = false;
+    $scope.clickSecondCircle = function() {
+        $scope.secondOne = !$scope.secondOne;
+    }
+    
+    $scope.thirdOne = false;
+    $scope.clickThirdCircle = function() {
+        $scope.thirdOne = !$scope.thirdOne;
+    }
+    
+    $scope.fourthOne = false;
+    $scope.clickFourthCircle = function() {
+        $scope.fourthOne = !$scope.fourthOne;
+    }
+    
+    $scope.fifthOne = false;
+    $scope.clickFifthCircle = function() {
+        $scope.fifthOne = !$scope.fifthOne;
     }
  
 }]);

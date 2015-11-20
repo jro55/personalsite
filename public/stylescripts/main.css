@@ -8,6 +8,10 @@
   color: white; 
 }
 
+*focus {
+    outline: none;
+}
+
 .mainIntro {
     background-image: url(../images/mountainbackground.jpg);
     background-size: cover;
@@ -334,4 +338,285 @@
     top: 800px;
     transition: all 0.6s ease-in-out;
 }
+
+.contactBackground {
+    background-image: url(../images/kevin.JPG);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.contactBackground2 {
+    z-index: -1;
+    opacity: 0;
+}
+
+.quote {
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'Abel', sans-serif;
+    font-size: 150%;
+    opacity: .7;
+}
+
+.personalTopBar {
+    background-color:rgba(0,1,29,1);
+    height: 180px;
+}
+
+.education {
+    opacity: 0;
+    background-color: white;
+    height: 565px;
+    transition: all 1s ease-in-out;
+    border-right: 1px solid grey;
+    color: black;
+    text-align: center;
+}
+.education2 {
+    opacity: 10;
+    transition: all .5s ease-in-out;
+/*    position: absolute;*/
+    width: 50vw;
+}
+
+/*
+.education3 {
+    height: 75vh;
+    box-shadow: 0px 5px 5px black;
+    transition: all .5s ease-in-out;
+}
+*/
+
+.lifeStory {
+    opacity: 0;
+    background-color: white;
+    height: 565px;
+    color: black;
+    text-align: center;
+/*    margin-left: 50vw;*/
+}
+.lifeStory2 {
+    opacity: 10;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+/*
+.interests {
+    opacity: 0;
+    background-color: rgba(0,1,29,.9);
+    height: 50vh;
+}
+.interests2 {
+    opacity: 10;
+    transition: all 1s ease-in-out;
+}
+*/
+
+.ull {
+    color: black;
+    margin-top: 61px
+}
+
+.borderBottom2 {
+    width: 180px;
+    border-bottom: 2px solid rgba(48, 49, 77, 1);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottomBar {
+    height: 180px;
+    background-color: rgba(0,1,29,1)
+}
+
+.clickText {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    top: 50px;
+    opacity: 1;
+}
+
+/*
+.clickTextActive {
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    top: -100px;
+    position: absolute;
+}
+*/
+
+.clickText.ng-hide-add,
+.clickText.ng-hide-remove,
+.clickText.ng-show-add,
+.clickText.ng-show-remove {
+    transition: all 0.5s ease;
+}
+
+.clickText.ng-hide {
+    top: -70px;
+    opacity: 0;
+    z-index: 0;
+}
+
+.circle {
+    width: 135px;
+    height: 135px;
+    border-radius: 100px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    top: 35vh;
+    left: 0vw;
+    position: absolute;
+    transition: all 0.5s ease-in-out
+}
+
+.circle1 {
+    top: 40px;
+    left: 5%;
+    z-index: 1;
+}
+
+.circle2 {
+    top: 215px;
+    left: 5%;
+}
+
+.circle3 {
+    top: 400px;
+    left: 5%;
+}
+
+.circle4 {
+    top: 40px;
+    left: 80%;
+}
+
+.circle5 {
+    top: 215px;
+    left: 80%;
+}
+
+.circle6 {
+    top: 400px;
+    left: 80%;
+}
+
+.circle1Active {
+    left: 30%;
+    top: 65px;
+    height: 220px;
+    width: 20vw;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out
+}
+
+.circle2Active {
+    left: 30%;
+    top: 65px;
+    height: 220px;
+    width: 20vw;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out
+}
+
+.circle3Active {
+    left: 30%;
+    top: 65px;
+    height: 220px;
+    width: 20vw;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out
+}
+
+.circle4Active {
+    left: 30%;
+    top: 65px;
+    height: 220px;
+    width: 20vw;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out
+}
+
+.circle5Active {
+    left: 30%;
+    top: 65px;
+    height: 220px;
+    width: 20vw;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out
+}
+
+.miley {
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    top: 290px;
+}
+
+.miley.ng-hide-add,
+.miley.ng-hide-remove,
+.miley.ng-show-add,
+.miley.ng-show-remove {
+    transition: all 0.75s ease;
+}
+
+.miley.ng-hide {
+    opacity: 0;
+}
+
+.hiking {
+    opacity: 1;
+}
+
+.hiking.ng-hide-add,
+.hiking.ng-hide-remove,
+.hiking.ng-show-add,
+.hiking.ng-show-remove {
+    transition: all 0.75s ease;
+}
+
+.hiking.ng-hide {
+    opacity: 0;
+}
+
+.biking {
+    opacity: 1;
+}
+
+.biking.ng-hide-add,
+.biking.ng-hide-remove,
+.biking.ng-show-add,
+.biking.ng-show-remove {
+    transition: all 0.75s ease;
+}
+
+.biking.ng-hide {
+    opacity: 0;
+}
+
+.family {
+    opacity: 1;
+}
+
+.family.ng-hide-add,
+.family.ng-hide-remove,
+.family.ng-show-add,
+.family.ng-show-remove {
+    transition: all 0.75s ease;
+}
+
+.family.ng-hide {
+    opacity: 0;
+}
+
+
 
