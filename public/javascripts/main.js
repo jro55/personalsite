@@ -105,7 +105,7 @@ angular.module('StarterApp')
         $scope.showContacts = !$scope.showContacts;
     }
     
-    $scope.toggleView = true;
+    $scope.toggleView = false;
     
     $scope.changeView = function() {
         $scope.toggleView = true;
