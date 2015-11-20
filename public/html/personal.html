@@ -36,31 +36,35 @@
         <div class="circle circle2" ng-class="{'circle2Active': secondOne}" ng-click="clickSecondCircle()" style="background-image: url(../images/kevin.gif)"></div>
         <div class="circle circle3" ng-class="{'circle3Active': thirdOne}" ng-click="clickThirdCircle()" style="background-image: url(../images/biking.gif)"></div>
         <div class="circle circle4" ng-class="{'circle4Active': fourthOne}" ng-click="clickFourthCircle()" style="background-image: url(../images/family.gif)"></div>
-        <div class="circle circle5" ng-class="{'circle5Active': fifthOne}" ng-click="clickFifthCircle()" style="background-image: url(../images/kevin.gif)"></div>
-        <div class="circle circle6" ng-class="{'circle6Active': sixthOne}" ng-click="clickSixthCircle()" style="background-image: url(../images/kevin.gif)"></div>
+        <div class="circle circle5" ng-class="{'circle5Active': fifthOne}" ng-click="clickFifthCircle()" style="background-image: url(../images/texas.jpeg)"></div>
+        <div class="circle circle6" ng-class="{'circle6Active': sixthOne}" ng-click="clickSixthCircle()" style="background-image: url(../images/blanchards.gif)"></div>
 <!--        <div class="clickText" ng-class="{'clickTextActive': firstOne || secondOne || thirdOne || fourthOne || fifthOne}">-->
-        <div flex class="clickText" ng-hide="firstOne || secondOne || thirdOne || fourthOne || fifthOne">
+        <div flex class="clickText" ng-hide="firstOne || secondOne || thirdOne || fourthOne || fifthOne || sixthOne">
             <h2>Click a photo to learn more about me.</h2>
         </div>
         <div class="miley" ng-show="firstOne">
             <h3>Miley</h3>
             <p>My girl who does everything with me inlcuding hiking, biking, and frisbee playing. She loves the mountains as much as I do.</p>
         </div>
-        <div class="hiking" ng-show="secondOne">
+        <div class="miley" ng-show="secondOne">
             <h3>Hiking</h3>
-            <p>One of the main reasons I moved to Colorado is for hiking. I hope one day to summit the peak of Everest.</p>
+            <p>One of the main reasons I moved to Colorado is for hiking. The clarity of mind that comes with spending time in the wilderness is the best thing for me to help stay focused when dealing with difficult projects.</p>
         </div>
         <div class="biking" ng-show="thirdOne">
             <h3>Biking</h3>
             <p>Another reason I moved to Boulder is to ride.</p>
         </div>
-        <div class="family" ng-show="fourthOne">
+        <div class="miley" ng-show="fourthOne">
             <h3>Family</h3>
-            <p>One of the main reasons I moved to Colorado is for hiking. I hope one day to summit the peak of Everest.</p>
+            <p>Family is always going to important to me. The hardest thing about moving to Colorado was having to leave them. But they still remain awesome and supportive in everything I do.</p>
         </div>
-        <div ng-show="fifthOne">
-            <h3>Hiking</h3>
-            <p>One of the main reasons I moved to Colorado is for hiking. I hope one day to summit the peak of Everest.</p>
+        <div class="miley" ng-show="fifthOne">
+            <h3>Texas</h3>
+            <p>Even though I love Colorado and there isn't any other place I would rather live, it is still important to remember where you came from. Texas is my home state and it helped shape me into the person I am today. The stars at night, are big and bright,...</p>
+        </div>
+        <div class="biking" ng-show="sixthOne">
+            <h3>Friends</h3>
+            <p>Never forget the people who have helped you get where you are. Without the selfless generosity of these amazing people I might not have ever obtained my degree. I have the deepest respect and love for these people and won't ever miss an opportunity to let them know.</p>
         </div>
     </div>
 </div>

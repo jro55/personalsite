@@ -141,6 +141,11 @@ angular.module('StarterApp')
     $scope.clickFifthCircle = function() {
         $scope.fifthOne = !$scope.fifthOne;
     }
+    
+    $scope.sixthOne = false;
+    $scope.clickSixthCircle = function() {
+        $scope.sixthOne = !$scope.sixthOne;
+    }
  
 }]);
 

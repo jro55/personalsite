@@ -444,6 +444,11 @@
     opacity: 1;
 }
 
+.clickText h2 {
+    width: 50%;
+    margin: auto;
+}
+
 /*
 .clickTextActive {
     transition: all 0.5s ease-in-out;
@@ -498,6 +503,7 @@
 .circle4 {
     top: 40px;
     left: 80%;
+    z-index: 1;
 }
 
 .circle5 {
@@ -530,7 +536,7 @@
 
 .circle3Active {
     left: 30%;
-    top: 65px;
+    top: 200px;
     height: 220px;
     width: 20vw;
     border-radius: 3px;
@@ -555,11 +561,25 @@
     transition: all 0.5s ease-in-out
 }
 
+.circle6Active {
+    left: 30%;
+    top: 250px;
+    height: 220px;
+    width: 20vw;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out
+}
+
 .miley {
     opacity: 1;
     position: absolute;
     width: 100%;
     top: 290px;
+}
+
+.miley p {
+    width: 44%;
+    margin: auto;
 }
 
 .miley.ng-hide-add,
@@ -590,6 +610,14 @@
 
 .biking {
     opacity: 1;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+
+.biking p {
+    width: 44%;
+    margin: auto;
 }
 
 .biking.ng-hide-add,
