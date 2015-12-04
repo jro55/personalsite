@@ -27,6 +27,15 @@
     overflow: hidden;
 }
 
+@media all and (max-width: 960px) {
+    .mainBoxes {
+        height: 33.33vh;
+    }
+    .boxesPlacementMd {
+        top: 15% !important;
+    }
+}
+
 .boxesPlacement {
     text-align: center;
     position: relative;
@@ -97,7 +106,6 @@
 }
 
 .personalText {
-    width: 300px;
     margin: auto;
     font-size: 120%;
     font-weight: 500;

@@ -1,7 +1,7 @@
 <!--<div layout="row">-->
     <div flex class="mainIntro" layout-align="center center">
-        <div layout="row">
-            <div flex class="mainBoxes" ng-class="{testClass: hovering1}"
+        <div layout-gt-md="row">
+            <div flex hide show-gt-md class="mainBoxes" ng-class="{testClass: hovering1}"
     ng-mouseenter="hovering1 = true"
     ng-mouseleave="hovering1 = false">
                 <div class="boxesPlacement">
@@ -26,7 +26,7 @@
                     <div class="personalText">
                         A portfolio of completed and ongoing projects.
                     </div>
-                    <div class="fullSize">
+                    <div class="fullSize" hide show-gt-md>
                         <div class="workAnimate" ng-show="hovering">
                             
                         </div>
@@ -36,13 +36,13 @@
             <div flex class="mainBoxes" ng-class="{testClass: hovering2}"
     ng-mouseenter="hovering2 = true"
     ng-mouseleave="hovering2 = false">
-                <div class="boxesPlacement">
+                <div class="boxesPlacement boxesPlacementMd">
                     <h1><a href="/#personal" class="noDecoration">Personal</a></h1>
                     <div class="borderBottom"></div>
                     <div class="personalText">
                         Learn who I am, where I come from, and what I have to offer You.
                     </div>
-                    <div class="fullSize">
+                    <div class="fullSize" hide show-gt-md>
                         <div class="personalAnimate" ng-show="hovering2">
                             <img style="width: 100%; height: 450px" src="../images/mountains3.png">
                         </div>
@@ -52,7 +52,7 @@
             <div flex class="mainBoxes" ng-click="clickContacts()" ng-class="{testClass: hovering3}"
     ng-mouseenter="hovering3 = true"
     ng-mouseleave="hovering3 = false">
-                <div class="boxesPlacement" ng-class="{boxesPlacement2: showContacts}">
+                <div class="boxesPlacement boxesPlacementMd" ng-class="{boxesPlacement2: showContacts}">
                     <h1>Contact</h1>
                     <div class="borderBottomContact" ng-class="{borderBottomContact2: showContacts}"></div>
                     <div class="personalText">
