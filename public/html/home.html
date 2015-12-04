@@ -55,10 +55,13 @@
                 <div class="boxesPlacement boxesPlacementMd" ng-class="{boxesPlacement2: showContacts}">
                     <h1>Contact</h1>
                     <div class="borderBottomContact" ng-class="{borderBottomContact2: showContacts}"></div>
-                    <div class="personalText">
+                    <div class="personalText" hide show-gt-md>
                         Add me on LinkedIn, GitHub, Facebook.
                     </div>
-                    <div class="fullSize">
+                    <a hide-gt-md href="https://www.linkedin.com/in/joshua-roman-2444456"><img class="iconSize" src="../images/linkedin.png"></a>
+                    <a hide-gt-md href="mailto:joshproman@yahoo.com"><img class="iconSize" ng-class="{iconSize2: showContacts}" src="../images/email.png"></a>
+                            <a hide-gt-md href="https://www.facebook.com/joshproman"><img class="iconSize" ng-class="{iconSize2: showContacts}" src="../images/facebook.png"></a>
+                    <div class="fullSize" hide show-gt-md>
                         <div class="contactAnimate" ng-show="hovering3" ng-class="{contactAnimate2: showContacts}">
                             <a href="https://www.linkedin.com/in/joshua-roman-2444456"><img class="iconSize" ng-class="{iconSize2: showContacts}" src="../images/linkedin.png"></a>
                             <a href="mailto:joshproman@yahoo.com"><img class="iconSize" ng-class="{iconSize2: showContacts}" src="../images/email.png"></a>

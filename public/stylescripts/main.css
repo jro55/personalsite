@@ -34,6 +34,38 @@
     .boxesPlacementMd {
         top: 15% !important;
     }
+    .iconSize {
+        height: 70px !important;
+        width: 70px !important;
+        padding: 10px;
+    }
+    .responsiveSizing {
+        text-align: center;
+        height: 325px !important;
+    }
+    .imageSizesTest {
+        position: static !important;
+        margin-top: 65px;
+    }
+    .paragraphSizing {
+        padding-left: 50px;
+        padding-right: 50px;
+        width: inherit !important;
+    }
+    .responsiveSizing2 {
+        text-align: center;
+        height: 325px !important;
+    }
+    .imageSizes2 {
+        position: static !important;
+        margin-top: 65px;
+    }
+}
+
+@media all and (min-width: 960px) {
+    .h3TagsTopMargin {
+        padding-top: 98px !important;
+    }
 }
 
 .boxesPlacement {
@@ -239,6 +271,12 @@
     margin-left: 15px;
 }
 
+.responsiveSizing {
+    background-color: white;
+    height: 450px;
+    position: relative;
+}
+
 .firstDiv {
     background-color: white;
     height: 450px;
@@ -254,6 +292,15 @@
     float: left;
     display: inline-block;
     box-shadow: 5px 5px 5px black;
+}
+
+.imageSizesTest {
+    width: 425px;
+    height: 250px;
+    box-shadow: 5px 5px 5px black;
+    position: absolute;
+    top: 22%;
+    right: 15%;
 }
 
 .background {
@@ -273,16 +320,31 @@
     padding-right: 100px;
 }
 
+.responsiveSizing2 {
+    background-color: whitesmoke;
+    height: 450px;
+    position: relative;
+}
+
 .info {
     color: black;
-    display: inline-block;
     position: absolute;
     margin-top: 83px;
-    padding-left: 150px;
-    width: 500px;
+/*    width: 35vw;*/
+}
+
+.paragraphSizing {
+    width: 480px;
 }
 
 .imageSizes2 {
+    width: 425px;
+    height: 250px;
+    box-shadow: 5px 5px 5px black;
+    position: absolute;
+    top: 22%;
+    left: 5vw;
+/*
     width: 425px;
     height: 250px;
     margin-right: 50px;
@@ -290,15 +352,15 @@
     float: right;
     display: inline-block;
     box-shadow: 5px 5px 5px black;
+*/
 }
 
 .info2 {
     color: black;
     display: inline-block;
     position: absolute;
-    margin-top: 120px;
-    padding-left: 40px;
-    padding-right: 800px;
+    margin-top: 83px;
+    padding-left: 8vw;
 }
 
 .thirdDiv {
