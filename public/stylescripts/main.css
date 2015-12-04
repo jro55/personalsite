@@ -269,9 +269,9 @@
     color: black;
     display: inline-block;
     position: absolute;
-    margin-top: 120px;
+    margin-top: 83px;
     padding-left: 150px;
-    padding-right: 200px;
+    width: 500px;
 }
 
 .imageSizes2 {
