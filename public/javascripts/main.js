@@ -101,9 +101,10 @@ angular.module('StarterApp')
     
     $scope.showContacts = false;
     
+    var screenTooSmall = false;
     var screenSizeCheck = function() {
         if (screen.width < 700) {
-            var screenTooSmall = true;
+            screenTooSmall = true;
             $scope.showContacts = true;
         }
     }
