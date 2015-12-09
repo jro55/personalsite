@@ -570,7 +570,6 @@
     background-position: center;
     background-size: cover;
     top: 35vh;
-    left: 0vw;
     position: absolute;
     transition: all 0.5s ease-in-out
 }
@@ -593,18 +592,18 @@
 
 .circle4 {
     top: 40px;
-    left: 80%;
+    right: 4%;
     z-index: 1;
 }
 
 .circle5 {
     top: 215px;
-    left: 80%;
+    right: 4%;
 }
 
 .circle6 {
     top: 400px;
-    left: 80%;
+    right: 4%;
 }
 
 .circle1Active {
@@ -635,7 +634,7 @@
 }
 
 .circle4Active {
-    left: 30%;
+    right: 30%;
     top: 65px;
     height: 220px;
     width: 20vw;
@@ -644,7 +643,7 @@
 }
 
 .circle5Active {
-    left: 30%;
+    right: 30%;
     top: 65px;
     height: 220px;
     width: 20vw;
@@ -653,7 +652,7 @@
 }
 
 .circle6Active {
-    left: 30%;
+    right: 30%;
     top: 250px;
     height: 220px;
     width: 20vw;
