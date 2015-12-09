@@ -31,9 +31,11 @@
     .mainBoxes {
         height: 33.33vh;
     }
+/*
     .boxesPlacementMd {
         top: 15% !important;
     }
+*/
     .iconSize {
         height: 70px !important;
         width: 70px !important;
@@ -59,6 +61,19 @@
     .imageSizes2 {
         position: static !important;
         margin-top: 65px;
+    }
+    .personalText {
+        padding: 5px;
+    }
+    .borderBottom {
+        margin-top: 30px !important;
+        margin-bottom: 27px !important;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .boxesPlacement {
+        top: 3% !important;
     }
 }
 
