@@ -75,6 +75,10 @@
     .boxesPlacement {
         top: 3% !important;
     }
+    .imageSizes2 {
+        width: 300px !important;
+        height: 200px !important;
+    }
 }
 
 @media all and (min-width: 960px) {
