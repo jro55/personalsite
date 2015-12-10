@@ -81,11 +81,24 @@
         height: 200px !important;
     }
     .fixText {
-    padding-top: 35px;
-    padding-bottom: 20px;
-    text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
+        padding-top: 35px;
+        padding-bottom: 20px;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .titleTextResponsive {
+        margin-top: 0px !important;
+    }
+    .iconsResponsive {
+        padding: 12px !important;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        height: 37px !important;
+        width: 37px !important;
+    }
+    .experience {
+        margin-bottom: 10px !important;
     }
 }
 
