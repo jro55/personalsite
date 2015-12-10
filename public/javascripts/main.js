@@ -131,31 +131,49 @@ angular.module('StarterApp')
     
     $scope.firstOne = false;
     $scope.clickFirstCircle = function() {
+        if ($scope.secondOne || $scope.thirdOne || $scope.fourthOne || $scope.fifthOne || $scope.sixthOne) {
+            return;
+        }
         $scope.firstOne = !$scope.firstOne;
     }
     
     $scope.secondOne = false;
     $scope.clickSecondCircle = function() {
+        if ($scope.firstOne || $scope.thirdOne || $scope.fourthOne || $scope.fifthOne || $scope.sixthOne) {
+            return;
+        }
         $scope.secondOne = !$scope.secondOne;
     }
     
     $scope.thirdOne = false;
     $scope.clickThirdCircle = function() {
+        if ($scope.firstOne || $scope.secondOne || $scope.fourthOne || $scope.fifthOne || $scope.sixthOne) {
+            return;
+        }
         $scope.thirdOne = !$scope.thirdOne;
     }
     
     $scope.fourthOne = false;
     $scope.clickFourthCircle = function() {
+        if ($scope.firstOne || $scope.secondOne || $scope.thirdOne || $scope.fifthOne || $scope.sixthOne) {
+            return;
+        }
         $scope.fourthOne = !$scope.fourthOne;
     }
     
     $scope.fifthOne = false;
     $scope.clickFifthCircle = function() {
+        if ($scope.firstOne || $scope.secondOne || $scope.thirdOne || $scope.fourthOne || $scope.sixthOne) {
+            return;
+        }
         $scope.fifthOne = !$scope.fifthOne;
     }
     
     $scope.sixthOne = false;
     $scope.clickSixthCircle = function() {
+        if ($scope.firstOne || $scope.secondOne || $scope.thirdOne || $scope.fourthOne || $scope.fifthOne) {
+            return;
+        }
         $scope.sixthOne = !$scope.sixthOne;
     }
  

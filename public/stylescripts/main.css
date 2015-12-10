@@ -406,11 +406,11 @@
 
 .thirdDiv {
     background-color: #00011D;
-    height: 350px;
+    height: 150px;
     color: white;
     font-size: 200%;
     text-align: center;
-    padding-top: 240px;
+    padding-top: 15px;
     font-family: sans-serif;
 }
 
@@ -756,6 +756,11 @@
 .family.ng-hide {
     opacity: 0;
 }
-v
 
-
+.bottomIcons {
+    width: 55px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
