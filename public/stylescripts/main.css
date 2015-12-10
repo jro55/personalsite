@@ -56,7 +56,8 @@
     }
     .responsiveSizing2 {
         text-align: center;
-        height: 325px !important;
+        height: auto !important;
+        padding-bottom: 10px;
     }
     .imageSizes2 {
         position: static !important;
@@ -78,6 +79,13 @@
     .imageSizes2 {
         width: 300px !important;
         height: 200px !important;
+    }
+    .fixText {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
     }
 }
 
@@ -735,6 +743,6 @@
 .family.ng-hide {
     opacity: 0;
 }
-
+v
 
 
