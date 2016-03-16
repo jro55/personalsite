@@ -16,6 +16,10 @@ angular.module('StarterApp')
                 templateUrl : '/html/personal.html',
                 controller : 'AppCtrl'
             })
+            .when('/kidCodeIt', {
+                templateUrl : '/html/kidCodeIt.html',
+                controller : 'AppCtrl'
+            })
 //            .when('/userpage', {
 //                templateUrl : '/html/userPage.html',
 //                controller : 'mainConetroller'
